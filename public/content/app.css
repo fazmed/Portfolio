@@ -1,7 +1,18 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;}
 
 a {
   color: #00B7FF;
+}
+
+td {
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tr {
+  padding-bottom: 50px;
 }
