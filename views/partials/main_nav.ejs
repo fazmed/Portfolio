@@ -12,27 +12,51 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         
           
-          <% if (title == "Home") { %>
+          <% if (title == "home") { %>
           <li class="nav-link.active">
           <% } else { %>
           <li class="nav-link">
           <% } %>
-
+                            
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/home"><i class="fa-solid fa-house"></i> Home</a>
           </li>
+
+          <% if (title == "about") { %>
+            <li class="nav-link.active">
+            <% } else { %>
+            <li class="nav-link">
+            <% } %>
 
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/about"><i class="fa-solid fa-circle-info"></i> About</a>
           </li>
 
+          <% if (title == "projects") { %>
+            <li class="nav-link.active">
+            <% } else { %>
+            <li class="nav-link">
+            <% } %>
+
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/projects"><i class="fa-solid fa-bag-shopping"></i> Projects</a>
           </li>
 
+          <% if (title == "services") { %>
+            <li class="nav-link.active">
+            <% } else { %>
+            <li class="nav-link">
+            <% } %>
+
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/services"><i class="fa-solid fa-user-group"></i>Services</a>
           </li>
+
+          <% if (title == "contacts") { %>
+            <li class="nav-link.active">
+            <% } else { %>
+            <li class="nav-link">
+            <% } %>
 
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/contact"><i class="fa-solid fa-mobile-retro"></i> Contact</a>

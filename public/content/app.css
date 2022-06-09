@@ -16,3 +16,12 @@ td {
 tr {
   padding-bottom: 50px;
 }
+
+.nav-link {
+  color: #00B7FF;
+  font-size: 15px;
+}
+
+.nav-item {
+  color: white;
+}
