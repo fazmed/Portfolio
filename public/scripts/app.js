@@ -1,3 +1,5 @@
+/* functionality script for pages are called in this file */
+
 (funtion())
 {
 
